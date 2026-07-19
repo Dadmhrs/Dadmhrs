@@ -7,10 +7,10 @@
           font-size: 13px;
           line-height: 1.42;
           padding: 20px;
-          background-color: #0d1117;
-          border: 1px solid #30363d;
+          background-color: #ffffff;
+          border: 1px solid #d0d7de;
           border-radius: 6px;
-          color: #c9d1d9;
+          color: #24292f;
           display: table;
           width: calc(100% - 40px);
           height: calc(100% - 40px);
@@ -22,7 +22,7 @@
           vertical-align: top;
           width: 50%;
           white-space: pre;
-          color: #8b949e;
+          color: #57606a;
           font-size: 8.3px;
           line-height: 1.1;
           letter-spacing: 0.1px;
@@ -36,10 +36,10 @@
           padding-left: 40px;
         }
 
-        .highlight { color: #ff7b72; }
-        .cyan { color: #a5d6ff; }
-        .green { color: #7ee787; }
-        .yellow { color: #f2cc60; }
+        .highlight { color: #cf222e; }
+        .cyan { color: #0550ae; }
+        .green { color: #1a7f37; }
+        .yellow { color: #9a6700; }
       </style>
 
       <div class="container">
@@ -71,8 +71,8 @@ qq00wj(?&lt;&gt;&gt;~~&lt;i!ii&gt;i&lt;~&lt;[ll]/f/}?-]|_~+-1t|nY1&gt;~]?(nQC|})
 qqqqZtj(i~i&gt;&lt;+&gt;&lt;&lt;&gt;i&gt;-&lt;l}!+jvu|(\1/tu\/czzcUXrYdhoad0j?f1{}[|cZmZ0Yz({}|??(})r1x}_+&lt;&lt;&gt;&lt;~_?1xLYOO
 qqqqmZ([&gt;i_l!+~&gt;+&lt;&lt;&lt;_~l[&gttvztzCznxjffnYmOOvu/wkaohd0\uJLf1)/]?[1fXJn\({-++_\)r\?_!&gt;&lt;l&lt;&gt;~&lt;)fCXOO
 qqqqwmqv?&lt;i!l&lt;~_~&lt;&gt;&lt;++&lt;?rxvzCOOQQJCO00ZmmOYzQphahbqQ{tXLmbLC\++&gt;{1{/\(1?+[t1)-~-i&gt;ill&gt;&gt;?_{1vcCO
-qqqqqwmC[iii~?_{+~&gt;+]++(\rXL0000QmwqwqpqwQLwdbaohdwQ)vzZmZOuruznu(?{frf/xtx_+__~!l!l!i&lt;]-&lt;\rXQ
-qqqqpmOr|+&gt;ii)]&lt;&lt;_++&lt;_~-|rnUL0QLOZmqwwqqwZ0dbhaoohdwQ\YY0mqmOLYvfjf\nXrf/x[+&lt;~+~i&gt;!ii+-+&gt;i&gt[[nvJ
+qqqqqwmC[iii~?_{+~&gt;+]++(\rXL0000QmwqwqpqwQLwdbaohdwQ)vzZmZOuruznu(?{frf/xtx_+__~!l!l!i&lt;-]-&lt;?\rXQ
+qqqqpmOr|+&gt;ii)]&lt;&lt;_++&lt;_~-|rnUL0QLOZmqwwqqwZ0dbhaoohdwQ\YY0mqmOLYvfjf\nXrf/x[+&lt;~+~i&gt;!ii+-+&gt;i&gt;[[nvJ
 qqqqqqZj_-~l&gt;(+i~_+i&lt;~]/zULvQLOZmmwwqwqQZdbkaMW#hbdOu\z0ZmwwmZ0CJUCXJLY/]~&gt;&gt;~~~iii&gt;i!&gt;!I&gt;ii[rX0
 qqqqwwQ}?/n!~_[i&gt;+}[__}rcYUYCOOt|fr()OOLCLwqpbhbbdpqQcfOmmmmmmZZOO00ZZJ/\lt;&lt;~~~i&lt;&gt;iii&gt;!l!&gt;]}(rQQ
 ppqqpmc}fCw1?+_1]&gt;~-++}jvvvUCQ0OZZmZOQ|[]{rJQOOLLCCCCUJ\LwmmmZOOO000L0U1--+~~!!iii!!ll!&gt;&lt;~{}fCO
