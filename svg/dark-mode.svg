@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
   <style>
     .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 10px; }
-    .ascii { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace; font-size: 7.5px; fill: #8b949e; line-height: 9px; }
+    .ascii { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace; font-size: 7.5px; fill: #8b949e; line-height: 9px; white-space: pre; }
     
-    /* استایل‌های ترمینال سمت راست */
     .term-header { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 15px; font-weight: bold; fill: #58a6ff; }
     .term-dash { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; fill: #30363d; }
     .term-key { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 13px; font-weight: bold; fill: #f0883e; }
@@ -12,10 +11,8 @@
     .term-sec { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; font-weight: bold; fill: #58a6ff; }
   </style>
 
-  <!-- کادر اصلی با عرض ۹۶۰ متوازن -->
   <rect width="958" height="538" x="1" y="1" class="bg" />
 
-  <!-- ستون سمت چپ: تصویر ASCII شما -->
   <g class="ascii" transform="translate(30, 30)">
     <text x="0" y="10">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCJCJJJJJJJJCJYUJJJJCCCCCJJJJJJJJJJJJJJJJJJJJJJUUUUUUUUUUU</text>
     <text x="0" y="19">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCUJCUXUJJJUYUUUJUUJJJCJJJJJJCJJJJJJJJJJJJJJJJJJJJUUUUUUUYYY</text>
@@ -42,15 +39,15 @@
     <text x="0" y="208">wwO/ZZ(&gt;~&gt;~&gt;ii!i!&lt;l&lt;&lt;i!&gt;[~-+[11{)vL0mqCnt|{?}{umkaahwLx1?-~&lt;&lt;&gt;&gt;-??{(fcYvjxz|ffx\c\{?~--{|XrUX00</text>
     <text x="0" y="217">qmcQpx[-&gt;&gt;&lt;&gt;&gt;!!lii&lt;&gt;&gt;!i1iIi}||1}ff){1}|xX|)1?1nqhoabZv)}[?()(tnrf)1t\-{f)fc)/jj|t|]&lt;~_+?[nXUc0O</text>
     <text x="0" y="226">qq00wj(?&lt;&gt;&gt;~~&lt;i!ii&gt;i&lt;~&lt;[ll]/f/}?-]|_~+-1t|nY1&gt;~]?(nQC|})()111|tt|111{{))+[|\\j(/]}&lt;~~~~+[|CJcOO</text>
-    <text x="0" y="235">qqqqZtj(i~i&gt;&lt;+&gt;&lt;&lt;&gt;i&gt;-&ltl}!+jvu|(\1/tu\/czzcUXrYdhoad0j?f1{}[|cZmZ0Yz({}|??(})r1x}_+&lt;&lt;&gt;&lt;~_?1xLYOO</text>
+    <text x="0" y="235">qqqqZtj(i~i&gt;&lt;+&gt;&lt;&lt;&gt;i&gt;-&lt;l}!+jvu|(\1/tu\/czzcUXrYdhoad0j?f1{}[|cZmZ0Yz({}|??(})r1x}_+&lt;&lt;&gt;&lt;~_?1xLYOO</text>
     <text x="0" y="244">qqqqmZ([&gt;i_l!+~&gt;+&lt;&lt;&lt;_~l[&gt;tvztzCznxjffnYmOOvu/wkaohd0\uJLf1)/]?[1fXJn\({-++_\)r\?_!&gt;&lt;l&lt;&gt;~&lt;)fCXOO</text>
-    <text x="0" y="253">qqqqwmqv?&lt;i!l&lt;~_~&lt;&gt;&lt;++&lt;?rxvzCOOQQJCO00ZmmOYzQphahbqQ{tXLmbLC\++&gt{1{/\(1?+[t1)-~-i&gt;ill&gt;&gt;?_{1vcCO</text>
-    <text x="0" y="262">qqqqqwmC[iii~?_{+~&gt;+]++(\rXL0000QmwqwqpqwQLwdbaohdwQ)vzZmZOuruznu(?{frf/xtx_+__~!l!l!i&lt]-&lt?\rXQ</text>
-    <text x="0" y="271">qqqqpmOr|+&gt;ii)]&lt;&lt;_++&lt;_~-|rnUL0QLOZmqwwqqwZ0dbhaoohdwQ\YY0mqmOLYvfjf\nXrf/x[+&lt;~+~i&gt;!ii+-+&gt;i&gt[[nvJ</text>
+    <text x="0" y="253">qqqqwmqv?&lt;i!l&lt;~_~&lt;&gt;&lt;++&lt;?rxvzCOOQQJCO00ZmmOYzQphahbqQ{tXLmbLC\++&gt;{1{/\(1?+[t1)-~-i&gt;ill&gt;&gt;?_{1vcCO</text>
+    <text x="0" y="262">qqqqqwmC[iii~?_{+~&gt;+]++(\rXL0000QmwqwqpqwQLwdbaohdwQ)vzZmZOuruznu(?{frf/xtx_+__~!l!l!i&lt;-&lt;?\rXQ</text>
+    <text x="0" y="271">qqqqpmOr|+&gt;ii)]&lt;&lt;_++&lt;_~-|rnUL0QLOZmqwwqqwZ0dbhaoohdwQ\YY0mqmOLYvfjf\nXrf/x[+&lt;~+~i&gt;!ii+-+&gt;i&gt;[[nvJ</text>
     <text x="0" y="280">qqqqqqZj_-~l&gt;(+i~_+i&lt;~]/zULvQLOZmmwwqwqQZdbkaMW#hbdOu\z0ZmwwmZ0CJUCXJLY/]~&gt;&gt;~~~iii&gt;i!&gt;!I&gt;ii[rX0</text>
     <text x="0" y="289">qqqqwwQ}?/n!~_[i&gt;+}[__}rcYUYCOOt|fr()OOLCLwqpbhbbdpqQcfOmmmmmmZZOO00ZZJ/\&lt;&lt;~~~i&lt;&gt;iii&gt;l!&gt;]}(rQQ</text>
     <text x="0" y="298">ppqqpmc}fCw1?+_1]&gt;~-++}jvvvUCQ0OZZmZOQ|[]{rJQOOLLCCCCUJ\LwmmmZOOO000L0U1--+~~!!iii!!ll!&lt;~{}fCO</text>
-    <text x="0" y="307">ppppwOCjC0pY?+&gt;i~&gt;&lt;i~-rcxnvXYJCQQOwbkd(?&gtll(fxj/|{{)fn(0ZxUZmZZZO00QY}c1~+~~lIlI!!Ili!ilI]Y\uQO</text>
+    <text x="0" y="307">ppppwOCjC0pY?+&gt;i~&gt;&lt;i~-rcxnvXYJCQQOwbkd(?&gt;ll(fxj/|{{)fn(0ZxUZmZZZO00QY}c1~+~~lIlI!!Ili!ilI]Y\uQO</text>
     <text x="0" y="316">pdpppOLmwqpmO\_+&gt;&lt;iI~{vYXL0mqdddddbkkdn{?_?])()[+I;l~]xQOmmwqOcrxJLXn1}t?~&lt;!I;;;I;I&lt;{ilII-XLz0O</text>
     <text x="0" y="325">ppqmwmqwpddppCv]~i!l-\uuzUQmqqppdbbkkmt)1{[--]?]11?_?|mbZ0OOZZZmZQCzxj|nt&lt;l!I;III;I[/!!(!)Q0OOO</text>
     <text x="0" y="334">ppppqppdpppppdO|lll_}\rjcL0ZwqqqqdddbpmOCz\[---[{)11)\YdkkOJLLQ0LLCUUzcn{I;lIIIIIl!-{~&lt;?~vQ0O00</text>
@@ -64,18 +61,17 @@
     <text x="0" y="406">qqqqqqqppqqppqppqqpqqqqpuruzUCLQ0QQQQCYx|1{[][[{/nvXUQZOQJUXcuxrjff};i}[-?--?})[[)jt\tjrrxvYOOZ</text>
     <text x="0" y="415">qqqqqqqqpppqpppqqqqqqqqqwjtvYCQOmwwqqpdkkbdqZQCUYUJJCQQQJUcnjjrtft{:,:l~???]???-??1)1))(|/jnc0Z</text>
     <text x="0" y="424">qqqqqqqqpqqpppqpqqqqqqqqqr|/nYLmmqqqqpbkbpdbkpqwOOO0QQCJYznjfft//|;i&lt;&lt;-]]]-+~~~+[{?++){(ft/x)fx</text>
-    <text x="0" y="433">qqqqqqqqqqqqqqqqqqqqqqqqqr({|xYCQ0Q0ZwwO0OqqqqqqmwmmOQLUzurft\//jfjuxt?!iii&gt;&gt;&lt;&amp;~~_-?[}{{(|/jnucz</text>
+    <text x="0" y="433">qqqqqqqqqqqqqqqqqqqqqqqqqr({|xYCQ0Q0ZwwO0OqqqqqqmwmmOQLUzurft\//jfjuxt?!iii&gt;&gt;&lt;&amp;amp;~~_-?[}{{(|/jnucz</text>
     <text x="0" y="442">qqqqqqqqqqqqqqqqqqqqwwwqx\)[{/rXYUUUCQQQCQLLOZZOOZZ0QYvrf/\\\/fx)})((())(|\\\|\\//\\\\\){[[?-+</text>
     <text x="0" y="451">qqqqqqqqqqqqqqqqqqqqwqwqqz|){[?}(ffjfrnnvzUUCCCJJJJCYcj/||()))trx&lt;!i&gt;&lt;~_--???]][}{{1(|/tfrxnucv</text>
     <text x="0" y="460">qqqqqqqqqqqqqqqqqqqqwwwwwLt|1}[]][1}}{}}1(/fftffrfj//|(}]]]1\/fxt&gt;IIIIli&gt;&lt;&gt;&lt;&gt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;~~~~~~~~+</text>
-    <text x="0" y="469">qqqqqqqqqqqqqqqqqqqqwwwwwCj\)1}[}}]----]}1)1{{{{{1{}]???}{1((frx|&gt;lllli&lt~~~~&lt;&lt;&gt;&gt;&gt;&gt;&gt;iiii!i!!!!!!</text>
+    <text x="0" y="469">qqqqqqqqqqqqqqqqqqqqwwwwwCj\)1}[}}]----]}1)1{{{{{1{}]???}{1((frx|&gt;lllli&lt;~~~~&lt;&lt;&gt;&gt;&gt;&gt;&gt;iiii!i!!!!!!</text>
     <text x="0" y="478">qqqqqqqqqqqqqqqqqqwwwwwmurf|){}}}}[]--_-?][}}{{{}}[[][}))|/fjxx|&gt;!ll!&gt;++++++_+++++++++++++++++</text>
     <text x="0" y="487">qqqqqqqqqqqqqqqqqqqwwwwwQrrf/|11{{}[[]??]]}111))1}}}{{{1(\ttjxcXf&gt;i!!!&gt;+++_+_+____+++++++++++++</text>
     <text x="0" y="496">qqqqqqqqwwqqqqqqqqwwwwwZnxxrt\()1{}}}[[}{{{1)((()1{11)(|\ttxYCLLz~i!!!&gt;+++___________+++++_++++</text>
-    <text x="0" y="505">qqqqqqqqqwqqqwqqqqwwwwwLJXcunf\()11{{111)))(||())1)((|\/trUOmZOQL(&lt;&gt;i!&lt___----_--____________+_</text>
+    <text x="0" y="505">qqqqqqqqqwqqqwqqqqwwwwwLJXcunf\()11{{111)))(||())1)((|\/trUOmZOQL(&lt;&gt;i!&lt;___----_--____________+_</text>
   </g>
 
-  <!-- ستون سمت راست: اطلاعات شخصی شما -->
   <g transform="translate(490, 45)">
     <text x="0" y="0"><tspan class="term-header">Dadmehr</tspan></text>
     <text x="0" y="15"><tspan class="term-dash">────────────────────────────────────────</tspan></text>
