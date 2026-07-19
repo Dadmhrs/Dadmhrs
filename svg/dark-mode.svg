@@ -1,124 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 950 620" width="950" height="620">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .container {
-          font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
-          font-size: 13px;
-          line-height: 1.42;
-          padding: 20px;
-          background-color: #0d1117;
-          border: 1px solid #30363d;
-          border-radius: 6px;
-          color: #c9d1d9;
-          display: table;
-          width: calc(100% - 40px);
-          height: calc(100% - 40px);
-          box-sizing: border-box;
-        }
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 10px; }
+    .ascii { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace; font-size: 7.5px; fill: #8b949e; line-height: 9px; }
+    
+    /* استایل‌های ترمینال سمت راست */
+    .term-header { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 15px; font-weight: bold; fill: #58a6ff; }
+    .term-dash { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; fill: #30363d; }
+    .term-key { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 13px; font-weight: bold; fill: #f0883e; }
+    .term-dot { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 13px; fill: #484f58; }
+    .term-val { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 13px; fill: #c9d1d9; }
+    .term-sec { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; font-weight: bold; fill: #58a6ff; }
+  </style>
 
-        .ascii-column {
-          display: table-cell;
-          vertical-align: top;
-          width: 50%;
-          white-space: pre;
-          color: #8b949e;
-          font-size: 8.3px;
-          line-height: 1.1;
-          letter-spacing: 0.1px;
-        }
+  <!-- کادر اصلی با عرض ۹۶۰ متوازن -->
+  <rect width="958" height="538" x="1" y="1" class="bg" />
 
-        .info-column {
-          display: table-cell;
-          vertical-align: top;
-          width: 50%;
-          white-space: pre;
-          padding-left: 40px;
-        }
+  <!-- ستون سمت چپ: تصویر ASCII شما -->
+  <g class="ascii" transform="translate(30, 30)">
+    <text x="0" y="10">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCJCJJJJJJJJCJYUJJJJCCCCCJJJJJJJJJJJJJJJJJJJJJJUUUUUUUUUUU</text>
+    <text x="0" y="19">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCUJCUXUJJJUYUUUJUUJJJCJJJJJJCJJJJJJJJJJJJJJJJJJJJUUUUUUUYYY</text>
+    <text x="0" y="28">JJJJCCCCCCCCCCCCCCCCCCCCCCCCCCCCCJJCYUJCJJUUYvnrf/trnncXXUJvzunUYXJCCJJJJJJJJJJJJUUUUUUUUUUUUYY</text>
+    <text x="0" y="37">YXXXXXYYJJCCCCCCCCCCCCCCCCCCCJUUJYUUUcvczx)1{[[}{}-__-{(uzxnt([__{/rnJJJJJJJJJJJJUUUUUUUUUUUYYY</text>
+    <text x="0" y="46">ZmmwwmQJYXXXYUJCCCCCCCCCCCCCCUYzvzJYczx|((11}}-_]1{-_-__-]\XYcnnf/)1]nzzvxvJJJJJJJJUUUUUUYYYYYY</text>
+    <text x="0" y="55">XXYYCQOZmmqqm0CJUYUUUUJJJCJUczJCJzzur((|]}][~~iii&gt;&gt;&gt;+~&lt;++__????--]}))trj/uXUJJJUUJUUUUUYUYYYYYY</text>
+    <text x="0" y="64">nuvcczzXXYUJL0OZmwqwOCJYcvuXUUUvxjj\\\t?_{?+~&lt;Il!&gt;&lt;&gt;+-~_--+&lt;&lt;-~+&lt;&lt;&gt;&gt;~(fruuxnXYUUUUUUUYYUYYYYYY</text>
+    <text x="0" y="73">CYcvuuuuuucczzzXYUJL0OQLCZZLXxujj/\\\t1{1{~&lt;i!!i&gt;+-_?{f{)r/}?{\tjx\{{][])xjxvcuvzUUUYYYYYYYYYYY</text>
+    <text x="0" y="82">ZZZZZZOQYzcvuuunnnuvvjXYYXXXncjt/j\/ff|rt-!i~+_+_[]?1||\uXj(}}1}-~~~_-])\|/j/rncncJJUUUUYYYYYYY</text>
+    <text x="0" y="91">mmmmmmmmmmmZZOLUcvujrnnxjftt/(fjr\|jc((tv~~[?[{\xcXUYJUJLLcx/1}]&gt;il!l!&lt;_\t|_}|1()jjxvXuUUUYYYYXXYYY</text>
+    <text x="0" y="100">mmmmmmmmmmmmZZZmQ0JmOJvxft\1|jrt((1u|f]\x?])vULqbkhhhhhkbkpmOJvf}]-~i&gt;i+?]111{}ffccvzUUUYYYYYYY</text>
+    <text x="0" y="109">wwwwwwmmmmOmmmmZCOOQYYuur(|\ff)}|(v/([-(\1Y0Zpdkhhaaaao*oaahkkbpmU|-??&gt;&gt;]??{|[]}/rfrXcYUYYYYYYY</text>
+    <text x="0" y="118">wwwwwwqqqmmwwmmCOLUCYrj|)11|\{((|ut}[??1tOOqdkhkhaaaooo*aaaaahhkkbqX}~&lt;i]{{]|}][{|?t\rcXYYYYYYY</text>
+    <text x="0" y="127">wwwwwwqqwqqqwmQQXYJu|){{}11(j\j(n/}???{/OZhkbkhhaaaaoooooaaaaahkbbbp0(~~}1/[|)}[{))f\]}tXzXXYYY</text>
+    <text x="0" y="136">wwwwwwqqwqqqCLUU0X[[?-][[\f)|){x}]_?~[|vQqbkkkhhaaooooooaaahhhkkbkbdqmf]1)({\}}1|)1{txf]}|zzXXX</text>
+    <text x="0" y="145">wqqqqqwqwqqLJCYf?}[]{1{|({??_tr][?}+[|xOLbhhkhhaoooooooooahhhhhkkbbppq0j)/){([])\{|{]rjt(-}fvvc</text>
+    <text x="0" y="154">qpppqppqmLXc\[+?]--?[[1{--]\\j{}[11\\vCZmkhhaooo**##*ooooaaahhkkbddppqZv[)(\]{]\f|()}}fvtr[(tzc</text>
+    <text x="0" y="163">qppppqqwc|]--?_++~~+?}}[]1]|t([|}r/1vL00Zdbkaoo**####****oohakkbddpppwZz11f([{|{jj\)|{1(|t}?|UQ</text>
+    <text x="0" y="172">qppppwn1?]~++_+&lt;&gt;&lt;&lt;++-]?_]\|[[}{1[rn||1[cJOmqbbha*****o**oaaakbbbpqqqw0U|jf(|{)}rr\[|1}(trvXUJY</text>
+    <text x="0" y="181">qqqqdX1?]_&lt;&gt;&lt;&gt;&gt;&gt;&lt;&lt;i&lt;?+_~_?_[?_{[tf_~_~&gt;i&lt;-)\jCOqkbkkkahhkdbbdpdbdpppqmQY\ft\)1/1xt(}-}{}/jvunnn</text>
+    <text x="0" y="190">qqqwOr}-!i~_&gt;!ii&gt;&lt;i~&gt;&lt;&lt;-?--&lt;{fr({{{((1{-~+~+]jXQmpqppqqwmZOZZZZmwwqwmOJzfvx|1(|(j/(]?{}||fjJQQL</text>
+    <text x="0" y="199">wwwO(Jr&lt;i&lt;&gt;&gt;&lt;&lt;&lt;&gt;iiiii~+~&lt;1][?})11)fnxj|(\]][]}nOqbbpwZLUx/(({11fuJOZ0LUztvn(/t/\u))]+?]|f\rvQ00</text>
+    <text x="0" y="208">wwO/ZZ(&gt;~&gt;~&gt;ii!i!&lt;l&lt;&lt;i!&gt;[~-+[11{)vL0mqCnt|{?}{umkaahwLx1?-~&lt;&lt;&gt;&gt;-??{(fcYvjxz|ffx\c\{?~--{|XrUX00</text>
+    <text x="0" y="217">qmcQpx[-&gt;&gt;&lt;&gt;&gt;!!lii&lt;&gt;&gt;!i1iIi}||1}ff){1}|xX|)1?1nqhoabZv)}[?()(tnrf)1t\-{f)fc)/jj|t|]&lt;~_+?[nXUc0O</text>
+    <text x="0" y="226">qq00wj(?&lt;&gt;&gt;~~&lt;i!ii&gt;i&lt;~&lt;[ll]/f/}?-]|_~+-1t|nY1&gt;~]?(nQC|})()111|tt|111{{))+[|\\j(/]}&lt;~~~~+[|CJcOO</text>
+    <text x="0" y="235">qqqqZtj(i~i&gt;&lt;+&gt;&lt;&lt;&gt;i&gt;-&ltl}!+jvu|(\1/tu\/czzcUXrYdhoad0j?f1{}[|cZmZ0Yz({}|??(})r1x}_+&lt;&lt;&gt;&lt;~_?1xLYOO</text>
+    <text x="0" y="244">qqqqmZ([&gt;i_l!+~&gt;+&lt;&lt;&lt;_~l[&gt;tvztzCznxjffnYmOOvu/wkaohd0\uJLf1)/]?[1fXJn\({-++_\)r\?_!&gt;&lt;l&lt;&gt;~&lt;)fCXOO</text>
+    <text x="0" y="253">qqqqwmqv?&lt;i!l&lt;~_~&lt;&gt;&lt;++&lt;?rxvzCOOQQJCO00ZmmOYzQphahbqQ{tXLmbLC\++&gt{1{/\(1?+[t1)-~-i&gt;ill&gt;&gt;?_{1vcCO</text>
+    <text x="0" y="262">qqqqqwmC[iii~?_{+~&gt;+]++(\rXL0000QmwqwqpqwQLwdbaohdwQ)vzZmZOuruznu(?{frf/xtx_+__~!l!l!i&lt]-&lt?\rXQ</text>
+    <text x="0" y="271">qqqqpmOr|+&gt;ii)]&lt;&lt;_++&lt;_~-|rnUL0QLOZmqwwqqwZ0dbhaoohdwQ\YY0mqmOLYvfjf\nXrf/x[+&lt;~+~i&gt;!ii+-+&gt;i&gt[[nvJ</text>
+    <text x="0" y="280">qqqqqqZj_-~l&gt;(+i~_+i&lt;~]/zULvQLOZmmwwqwqQZdbkaMW#hbdOu\z0ZmwwmZ0CJUCXJLY/]~&gt;&gt;~~~iii&gt;i!&gt;!I&gt;ii[rX0</text>
+    <text x="0" y="289">qqqqwwQ}?/n!~_[i&gt;+}[__}rcYUYCOOt|fr()OOLCLwqpbhbbdpqQcfOmmmmmmZZOO00ZZJ/\&lt;&lt;~~~i&lt;&gt;iii&gt;l!&gt;]}(rQQ</text>
+    <text x="0" y="298">ppqqpmc}fCw1?+_1]&gt;~-++}jvvvUCQ0OZZmZOQ|[]{rJQOOLLCCCCUJ\LwmmmZOOO000L0U1--+~~!!iii!!ll!&lt;~{}fCO</text>
+    <text x="0" y="307">ppppwOCjC0pY?+&gt;i~&gt;&lt;i~-rcxnvXYJCQQOwbkd(?&gtll(fxj/|{{)fn(0ZxUZmZZZO00QY}c1~+~~lIlI!!Ili!ilI]Y\uQO</text>
+    <text x="0" y="316">pdpppOLmwqpmO\_+&gt;&lt;iI~{vYXL0mqdddddbkkdn{?_?])()[+I;l~]xQOmmwqOcrxJLXn1}t?~&lt;!I;;;I;I&lt;{ilII-XLz0O</text>
+    <text x="0" y="325">ppqmwmqwpddppCv]~i!l-\uuzUQmqqppdbbkkmt)1{[--]?]11?_?|mbZ0OOZZZmZQCzxj|nt&lt;l!I;III;I[/!!(!)Q0OOO</text>
+    <text x="0" y="334">ppppqppdpppppdO|lll_}\rjcL0ZwqqqqdddbpmOCz\[---[{)11)\YdkkOJLLQ0LLCUUzcn{I;lIIIIIl!-{~&lt;?~vQ0O00</text>
+    <text x="0" y="343">qpppppppppppppC\[rLU{)fnYCQ0ZmmZmZZmmZZmmqbJ)[{/f/|\/rLbddddmJUJJUXXXzvj&gt;I!!IIlI!l!_?|)_|0O0000</text>
+    <text x="0" y="352">ppppppppppppppqqwqmn_[fcYUCQOO0LCQ0OZO0LCCObbbhmZZ00ZZwpdpppppmJXzcccux(?_+lIII!!!~]i~_-J0OO000</text>
+    <text x="0" y="361">qpppppppqpppppppqqwQ}+jcXUULOOCznt(/1}{{)(\tjrrjuJOZO0COmmwwmwwwCvuunrf1}?~lIIlll!+1&lt;++(XQOOwmm</text>
+    <text x="0" y="370">qqqqpqppppppppppqqqL|[rvXXYJL0CYYJUXYJLLCx)-_????]1nJCJQ0OOmZZZ0QYxrjf|1)?l;;l&gt;i!!&lt;~[)\uXQOmqpp</text>
+    <text x="0" y="379">qqpqqppqpppppppppqqqL)ruccXXUCCOOQLJUJJLZwpwddOQCXt-?{1xYCQ000LJUXxjft!&lt;?ll~li[/]I[jrtjxxnrxnzz</text>
+    <text x="0" y="388">qqqqpqpppppppppppppqqqzruvccYC0OZLCJzvvvnnvYJLLJYYXXcjtjrvJQQCYzcurff&lt;I!l-+(\]-]/nrrtjjunvJqBB@</text>
+    <text x="0" y="397">qqqqqpqppppppqpppqpqqwCjrnvzUJL0QCLUcr)[[]??]}(/jnvzUCLCUUCLJXcunxff[ii&gt;&lt;i~-}?-__}j/()(rtjxUmdk</text>
+    <text x="0" y="406">qqqqqqqppqqppqppqqpqqqqpuruzUCLQ0QQQQCYx|1{[][[{/nvXUQZOQJUXcuxrjff};i}[-?--?})[[)jt\tjrrxvYOOZ</text>
+    <text x="0" y="415">qqqqqqqqpppqpppqqqqqqqqqwjtvYCQOmwwqqpdkkbdqZQCUYUJJCQQQJUcnjjrtft{:,:l~???]???-??1)1))(|/jnc0Z</text>
+    <text x="0" y="424">qqqqqqqqpqqpppqpqqqqqqqqqr|/nYLmmqqqqpbkbpdbkpqwOOO0QQCJYznjfft//|;i&lt;&lt;-]]]-+~~~+[{?++){(ft/x)fx</text>
+    <text x="0" y="433">qqqqqqqqqqqqqqqqqqqqqqqqqr({|xYCQ0Q0ZwwO0OqqqqqqmwmmOQLUzurft\//jfjuxt?!iii&gt;&gt;&lt;&amp;~~_-?[}{{(|/jnucz</text>
+    <text x="0" y="442">qqqqqqqqqqqqqqqqqqqqwwwqx\)[{/rXYUUUCQQQCQLLOZZOOZZ0QYvrf/\\\/fx)})((())(|\\\|\\//\\\\\){[[?-+</text>
+    <text x="0" y="451">qqqqqqqqqqqqqqqqqqqqwqwqqz|){[?}(ffjfrnnvzUUCCCJJJJCYcj/||()))trx&lt;!i&gt;&lt;~_--???]][}{{1(|/tfrxnucv</text>
+    <text x="0" y="460">qqqqqqqqqqqqqqqqqqqqwwwwwLt|1}[]][1}}{}}1(/fftffrfj//|(}]]]1\/fxt&gt;IIIIli&gt;&lt;&gt;&lt;&gt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;~~~~~~~~+</text>
+    <text x="0" y="469">qqqqqqqqqqqqqqqqqqqqwwwwwCj\)1}[}}]----]}1)1{{{{{1{}]???}{1((frx|&gt;lllli&lt~~~~&lt;&lt;&gt;&gt;&gt;&gt;&gt;iiii!i!!!!!!</text>
+    <text x="0" y="478">qqqqqqqqqqqqqqqqqqwwwwwmurf|){}}}}[]--_-?][}}{{{}}[[][}))|/fjxx|&gt;!ll!&gt;++++++_+++++++++++++++++</text>
+    <text x="0" y="487">qqqqqqqqqqqqqqqqqqqwwwwwQrrf/|11{{}[[]??]]}111))1}}}{{{1(\ttjxcXf&gt;i!!!&gt;+++_+_+____+++++++++++++</text>
+    <text x="0" y="496">qqqqqqqqwwqqqqqqqqwwwwwZnxxrt\()1{}}}[[}{{{1)((()1{11)(|\ttxYCLLz~i!!!&gt;+++___________+++++_++++</text>
+    <text x="0" y="505">qqqqqqqqqwqqqwqqqqwwwwwLJXcunf\()11{{111)))(||())1)((|\/trUOmZOQL(&lt;&gt;i!&lt___----_--____________+_</text>
+  </g>
 
-        .highlight { color: #ff7b72; }
-        .cyan { color: #a5d6ff; }
-        .green { color: #7ee787; }
-        .yellow { color: #f2cc60; }
-      </style>
+  <!-- ستون سمت راست: اطلاعات شخصی شما -->
+  <g transform="translate(490, 45)">
+    <text x="0" y="0"><tspan class="term-header">Dadmehr</tspan></text>
+    <text x="0" y="15"><tspan class="term-dash">────────────────────────────────────────</tspan></text>
+    
+    <text x="0" y="45"><tspan class="term-key">OS</tspan><tspan class="term-dot">...................... </tspan><tspan class="term-val">Windows 11, Linux</tspan></text>
+    <text x="0" y="65"><tspan class="term-dot">Uptime.................. </tspan><tspan class="term-val">22 Years</tspan></text>
 
-      <div class="container">
-        <div class="ascii-column">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCJCJJJJJJJJCJYUJJJJCCCCCJJJJJJJJJJJJJJJJJJJJJJUUUUUUUUUUU
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCUJCUXUJJJUYUUUJUUJJJCJJJJJJCJJJJJJJJJJJJJJJJJJJJUUUUUUUYYY
-JJJJCCCCCCCCCCCCCCCCCCCCCCCCCCCCCJJCYUJCJJUUYvnrf/trnncXXUJvzunUYXJCCJJJJJJJJJJJJUUUUUUUUUUUUYY
-YXXXXXYYJJCCCCCCCCCCCCCCCCCCCJUUJYUUUcvczx)1{[[}{}-__-{(uzxnt([__{/rnJJJJJJJJJJJJUUUUUUUUUUUYYY
-ZmmwwmQJYXXXYUJCCCCCCCCCCCCCCUYzvzJYczx|((11}}-_]1{-_-__-]\XYcnnf/)1]nzzvxvJJJJJJJJUUUUUUYYYYYY
-XXYYCQOZmmqqm0CJUYUUUUJJJCJUczJCJzzur((|]}][~~iii&gt;&gt;&gt;+~&lt;++__????--]}))trj/uXUJJJUUJUUUUUYUYYYYYY
-nuvcczzXXYUJL0OZmwqwOCJYcvuXUUUvxjj\\\t?_{?+~&lt;Il!&gt;&lt;&gt;+-~_--+&lt;&lt;-~+&lt;&lt;&gt;&gt;~(fruuxnXYUUUUUUUYYUYYYYYY
-CYcvuuuuuucczzzXYUJL0OQLCZZLXxujj/\\\t1{1{~&lt;i!!i&gt;+-_?{f{)r/}?{\tjx\{{][])xjxvcuvzUUUYYYYYYYYYYY
-ZZZZZZOQYzcvuuunnnuvvjXYYXXXncjt/j\/ff|rt-!i~+_+_[]?1||\uXj(}}1}-~~~_-])\|/j/rncncJJUUUUYYYYYYY
-mmmmmmmmmmmZZOLUcvujrnnxjftt/(fjr\|jc((tv~~[?[{\xcXUYJUJLLcx/1}]&gt;il!l!&lt;_\t|_}|1()jjxvXuUUUYYYYXXYYY
-mmmmmmmmmmmmZZZmQ0JmOJvxft\1|jrt((1u|f]\x?])vULqbkhhhhhkbkpmOJvf}]-~i&gt;i+?]111{}ffccvzUUUYYYYYYY
-wwwwwwmmmmOmmmmZCOOQYYuur(|\ff)}|(v/([-(\1Y0Zpdkhhaaaao*oaahkkbpmU|-??&gt;&gt;]??{|[]}/rfrXcYUYYYYYYY
-wwwwwwqqqmmwwmmCOLUCYrj|)11|\{((|ut}[??1tOOqdkhkhaaaooo*aaaaahhkkbqX}~&lt;i]{{]|}][{|?t\rcXYYYYYYY
-wwwwwwqqwqqqwmQQXYJu|){{}11(j\j(n/}???{/OZhkbkhhaaaaoooooaaaaahkbbbp0(~~}1/[|)}[{))f\]}tXzXXYYY
-wwwwwwqqwqqqCLUU0X[[?-][[\f)|){x}]_?~[|vQqbkkkhhaaooooooaaahhhkkbkbdqmf]1)({\}}1|)1{txf]}|zzXXX
-qqqqqqwqwqqLJCYf?}[]{1{|({??_tr][?}+[|xOLbhhkhhaoooooooooahhhhhkkbbppq0j)/){([])\{|{]rjt(-}fvvc
-qpppqppqmLXc\[+?]--?[[1{--]\\j{}[11\\vCZmkhhaooo**##*ooooaaahhkkbddppqZv[)(\]{]\f|()}}fvtr[(tzc
-qppppqqwc|]--?_++~~+?}}[]1]|t([|}r/1vL00Zdbkaoo**####****oohakkbddpppwZz11f([{|{jj\)|{1(|t}?|UQ
-qppppwn1?]~++_+&lt;&gt;&lt;&lt;++-]?_]\|[[}{1[rn||1[cJOmqbbha*****o**oaaakbbbpqqqw0U|jf(|{)}rr\[|1}(trvXUJY
-qqqqdX1?]_&lt;&gt;&lt;&gt;&gt;&gt;&lt;&lt;i&lt;?+_~_?_[?_{[tf_~_~&gt;i&lt;-)\jCOqkbkkkahhkdbbdpdbdpppqmQY\ft\)1/1xt(}-}{}/jvunnn
-qqqwOr}-!i~_&gt;!ii&gt;&lt;i~&gt;&lt;&lt;-?--&lt;{fr({{{((1{-~+~+]jXQmpqppqqwmZOZZZZmwwqwmOJzfvx|1(|(j/(]?{}||fjJQQL
-wwwO(Jr&lt;i&lt;&gt;&gt;&lt;&lt;&lt;&gt;iiiii~+~&lt;1][?})11)fnxj|(\]][]}nOqbbpwZLUx/(({11fuJOZ0LUztvn(/t/\u))]+?]|f\rvQ00
-wwO/ZZ(&gt;~&gt;~&gt;ii!i!&lt;l&lt;&lt;i!&gt;[~-+[11{)vL0mqCnt|{?}{umkaahwLx1?-~&lt;&lt;&gt;&gt;-??{(fcYvjxz|ffx\c\{?~--{|XrUX00
-qmcQpx[-&gt;&gt;&lt;&gt;&gt;!!lii&lt;&gt;&gt;!i1iIi}||1}ff){1}|xX|)1?1nqhoabZv)}[?()(tnrf)1t\-{f)fc)/jj|t|]&lt;~_+?[nXUc0O
-qq00wj(?&lt;&gt;&gt;~~&lt;i!ii&gt;i&lt;~&lt;[ll]/f/}?-]|_~+-1t|nY1&gt;~]?(nQC|})()111|tt|111{{))+[|\\j(/]}&lt;~~~~+[|CJcOO
-qqqqZtj(i~i&gt;&lt;+&gt;&lt;&lt;&gt;i&gt;-&lt;l}!+jvu|(\1/tu\/czzcUXrYdhoad0j?f1{}[|cZmZ0Yz({}|??(})r1x}_+&lt;&lt;&gt;&lt;~_?1xLYOO
-qqqqmZ([&gt;i_l!+~&gt;+&lt;&lt;&lt;_~l[&gttvztzCznxjffnYmOOvu/wkaohd0\uJLf1)/]?[1fXJn\({-++_\)r\?_!&gt;&lt;l&lt;&gt;~&lt;)fCXOO
-qqqqwmqv?&lt;i!l&lt;~_~&lt;&gt;&lt;++&lt;?rxvzCOOQQJCO00ZmmOYzQphahbqQ{tXLmbLC\++&gt;{1{/\(1?+[t1)-~-i&gt;ill&gt;&gt;?_{1vcCO
-qqqqqwmC[iii~?_{+~&gt;+]++(\rXL0000QmwqwqpqwQLwdbaohdwQ)vzZmZOuruznu(?{frf/xtx_+__~!l!l!i&lt;]-&lt;\rXQ
-qqqqpmOr|+&gt;ii)]&lt;&lt;_++&lt;_~-|rnUL0QLOZmqwwqqwZ0dbhaoohdwQ\YY0mqmOLYvfjf\nXrf/x[+&lt;~+~i&gt;!ii+-+&gt;i&gt[[nvJ
-qqqqqqZj_-~l&gt;(+i~_+i&lt;~]/zULvQLOZmmwwqwqQZdbkaMW#hbdOu\z0ZmwwmZ0CJUCXJLY/]~&gt;&gt;~~~iii&gt;i!&gt;!I&gt;ii[rX0
-qqqqwwQ}?/n!~_[i&gt;+}[__}rcYUYCOOt|fr()OOLCLwqpbhbbdpqQcfOmmmmmmZZOO00ZZJ/\lt;&lt;~~~i&lt;&gt;iii&gt;!l!&gt;]}(rQQ
-ppqqpmc}fCw1?+_1]&gt;~-++}jvvvUCQ0OZZmZOQ|[]{rJQOOLLCCCCUJ\LwmmmZOOO000L0U1--+~~!!iii!!ll!&gt;&lt;~{}fCO
-ppppwOCjC0pY?+&gt;i~&gt;&lt;i~-rcxnvXYJCQQOwbkd(?&gt;ll(fxj/|{{)fn(0ZxUZmZZZO00QY}c1~+~~lIlI!!Ili!ilI]Y\uQO
-pdpppOLmwqpmO\_+&gt;&lt;iI~{vYXL0mqdddddbkkdn{?_?])()[+I;l~]xQOmmwqOcrxJLXn1}t?~&lt;!I;;;I;I&lt;{ilII-XLz0O
-ppqmwmqwpddppCv]~i!l-\uuzUQmqqppdbbkkmt)1{[--]?]11?_?|mbZ0OOZZZmZQCzxj|nt&lt;l!I;III;I[/!!(!)Q0OOO
-ppppqppdpppppdO|lll_}\rjcL0ZwqqqqdddbpmOCz\[---[{)11)\YdkkOJLLQ0LLCUUzcn{I;lIIIIIl!-{~&lt;?~vQ0O00
-qpppppppppppppC\[rLU{)fnYCQ0ZmmZmZZmmZZmmqbJ)[{/f/|\/rLbddddmJUJJUXXXzvj&gt;I!!IIlI!l!_?|)_|0O0000
-ppppppppppppppqqwqmn_[fcYUCQOO0LCQ0OZO0LCCObbbhmZZ00ZZwpdpppppmJXzcccux(?_+lIII!!!~]i~_-J0OO000
-pppppppqpppppppqqwQ}+jcXUULOOCznt(/1}{{)(\tjrrjuJOZO0COmmwwmwwwCvuunrf1}?~lIIlll!+1&lt;++(XQOOwmm
-qqqqpqppppppppppqqqL|[rvXXYJL0CYYJUXYJLLCx)-_????]1nJCJQ0OOmZZZ0QYxrjf|1)?l;;l&gt;i!!&lt;~[)\uXQOmqpp
-qqpqqppqpppppppppqqqL)ruccXXUCCOOQLJUJJLZwpwddOQCXt-?{1xYCQ000LJUXxjft!&lt;?ll~li[/]I[jrtjxxnrxnzz
-qqqqpqpppppppppppppqqqzruvccYC0OZLCJzvvvnnvYJLLJYYXXcjtjrvJQQCYzcurff&lt;I!l-+(\]-]/nrrtjjunvJqBB@
-qqqqqpqppppppqpppqpqqwCjrnvzUJL0QCLUcr)[[]??]}(/jnvzUCLCUUCLJXcunxff[ii&gt;&lt;i~-}?-__}j/()(rtjxUmdk
-qqqqqqqppqqppqppqqpqqqqpuruzUCLQ0QQQQCYx|1{[][[{/nvXUQZOQJUXcuxrjff};i}[-?--?})[[)jt\tjrrxvYOOZ
-qqqqqqqqpppqpppqqqqqqqqqwjtvYCQOmwwqqpdkkbdqZQCUYUJJCQQQJUcnjjrtft{:,:l~???]???-??1)1))(|/jnc0Z
-qqqqqqqqpqqpppqpqqqqqqqqqr|/nYLmmqqqqpbkbpdbkpqwOOO0QQCJYznjfft//|;i&lt;&lt;-]]]-+~~~+[{?++){(ft/x)fx
-qqqqqqqqqqqqqqqqqqqqqqqqqr({|xYCQ0Q0ZwwO0OqqqqqqmwmmOQLUzurft\//jfjuxt?!iii&gt;&gt;&lt;~~_-?[}{{(|/jnucz
-qqqqqqqqqqqqqqqqqqqqqwwwqx\)[{/rXYUUUCQQQCQLLOZZOOZZ0QYvrf/\\\/fx)})((())(|\\\|\\//\\\\\){[[?-+
-qqqqqqqqqqqqqqqqqqqqwqwqqz|){[?}(ffjfrnnvzUUCCCJJJJCYcj/||()))trx&lt;!i&gt;&lt;~_--???]][}{{1(|/tfrxnucv
-qqqqqqqqqqqqqqqqqqqqwwwwwLt|1}[]][1}}{}}1(/fftffrfj//|(}]]]1\/fxt&gt;IIIIli&gt;&lt;&gt;&lt;&gt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;~~~~~~~~+
-qqqqqqqqqqqqqqqqqqqqwwwwwCj\)1}[}}]----]}1)1{{{{{1{}]???}{1((frx|&gt;lllli&lt;~~~~&lt;&lt;&gt;&gt;&gt;&gt;&gt;iiii!i!!!!!!
-qqqqqqqqqqqqqqqqqqqwwwwwmurf|){}}}}[]--_-?][}}{{{}}[[][}))|/fjxx|&gt;!ll!&gt;++++++_+++++++++++++++++
-qqqqqqqqqqqqqqqqqqqwwwwwQrrf/|11{{}[[]??]]}111))1}}}{{{1(\ttjxcXf&gt;i!!!&gt;+++_+_+____+++++++++++++
-qqqqqqqqwwqqqqqqqqwwwwwZnxxrt\()1{}}}[[}{{{1)((()1{11)(|\ttxYCLLz~i!!!&gt;+++___________+++++_++++
-qqqqqqqqqwqqqwqqqqwwwwwLJXcunf\()11{{111)))(||())1)((|\/trUOmZOQL(&lt;&gt;i!&lt;___----_--____________+_</div>
-        <div class="info-column">
-<span class="cyan">Dadmehr</span> 
-────────────────────────────────────────
+    <text x="0" y="100"><tspan class="term-key">Programming</tspan><tspan class="term-dot">............. </tspan><tspan class="term-val">JavaScript</tspan></text>
+    <text x="0" y="120"><tspan class="term-dot">........................ </tspan><tspan class="term-val">C#</tspan></text>
 
-<span class="yellow">OS......................</span> Windows 11, Linux
-<span class="yellow">Experience..............</span> 22 Years
+    <text x="0" y="155"><tspan class="term-key">Computer</tspan><tspan class="term-dot">................ </tspan><tspan class="term-val">HTML</tspan></text>
+    <text x="0" y="175"><tspan class="term-dot">........................ </tspan><tspan class="term-val">CSS</tspan></text>
+    <text x="0" y="195"><tspan class="term-dot">........................ </tspan><tspan class="term-val">JSON</tspan></text>
 
-<span class="highlight">Language.Programming....</span> JavaScript, C#
-<span class="highlight">Language.Computer.......</span> HTML, CSS, JSON
-<span class="highlight">Languages.Real..........</span> English, German, Persian
+    <text x="0" y="230"><tspan class="term-key">Languages</tspan><tspan class="term-dot">............... </tspan><tspan class="term-val">English</tspan></text>
+    <text x="0" y="250"><tspan class="term-dot">........................ </tspan><tspan class="term-val">German</tspan></text>
+    <text x="0" y="270"><tspan class="term-dot">........................ </tspan><tspan class="term-val">Persian</tspan></text>
 
-────────────────────────────────────────
+    <text x="0" y="300"><tspan class="term-dash">────────────────────────────────────────</tspan></text>
 
-Contact
-
-<span class="green">Email.Work..............</span> mehr.saraee@gmail.com
-<span class="green">LinkedIn................</span> Dadmehr
-<span class="green">Discord.................</span> Dadmehr
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+    <text x="0" y="330"><tspan class="term-sec">Contact</tspan></text>
+    
+    <text x="0" y="360"><tspan class="term-key">Email</tspan><tspan class="term-dot">................... </tspan><tspan class="term-val">mehr.saraee@gmail.com</tspan></text>
+    <text x="0" y="380"><tspan class="term-key">LinkedIn</tspan><tspan class="term-dot">................ </tspan><tspan class="term-val">Dadmehr</tspan></text>
+    <text x="0" y="400"><tspan class="term-key">Discord</tspan><tspan class="term-dot">................. </tspan><tspan class="term-val">Dadmehr</tspan></text>
+  </g>
 </svg>
