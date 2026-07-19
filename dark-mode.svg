@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 880 620" width="880" height="620">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+          font-size: 13px;
+          line-height: 1.42;
+          padding: 16px;
+          background-color: #0d1117;
+          border: 1px solid #30363d;
+          border-radius: 6px;
+          color: #c9d1d9;
+          display: table;
+          width: calc(100% - 32px);
+          height: calc(100% - 32px);
+          box-sizing: border-box;
+        }
+
+        .ascii-column {
+          display: table-cell;
+          vertical-align: top;
+          width: 52%;
+          white-space: pre;
+          color: #8b949e;
+          font-size: 7.7px;
+          line-height: 1.1;
+          letter-spacing: 0.1px;
+        }
+
+        .info-column {
+          display: table-cell;
+          vertical-align: top;
+          width: 48%;
+          white-space: pre;
+          padding-left: 20px;
+        }
+
+        .highlight { color: #ff7b72; }
+        .cyan { color: #a5d6ff; }
+        .green { color: #7ee787; }
+        .yellow { color: #f2cc60; }
+      </style>
+
+      <div class="container">
+        <div class="ascii-column">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCJCJJJJJJJJCJYUJJJJCCCCCJJJJJJJJJJJJJJJJJJJJJJUUUUUUUUUUU
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCUJCUXUJJJUYUUUJUUJJJCJJJJJJCJJJJJJJJJJJJJJJJJJJJUUUUUUUYYY
+JJJJCCCCCCCCCCCCCCCCCCCCCCCCCCCCCJJCYUJCJJUUYvnrf/trnncXXUJvzunUYXJCCJJJJJJJJJJJJUUUUUUUUUUUUYY
+YXXXXXYYJJCCCCCCCCCCCCCCCCCCCJUUJYUUUcvczx)1{[[}{}-__-{(uzxnt([__{/rnJJJJJJJJJJJJUUUUUUUUUUUYYY
+ZmmwwmQJYXXXYUJCCCCCCCCCCCCCCUYzvzJYczx|((11}}-_]1{-_-__-]\XYcnnf/)1]nzzvxvJJJJJJJJUUUUUUYYYYYY
+XXYYCQOZmmqqm0CJUYUUUUJJJCJUczJCJzzur((|]}][~~iii>>>+~<++__????--]}))trj/uXUJJJUUJUUUUUYUYYYYYY
+nuvcczzXXYUJL0OZmwqwOCJYcvuXUUUvxjj\\\t?_{?+~&lt;Il!&gt;&lt;&gt;+-~_--+&lt;&lt;-~+&lt;&lt;&gt;&gt;~(fruuxnXYUUUUUUUYYUYYYYYY
+CYcvuuuuuucczzzXYUJL0OQLCZZLXxujj/\\\t1{1{~&lt;i!!i&gt;+-_?{f{)r/}?{\tjx\{{][])xjxvcuvzUUUYYYYYYYYYYY
+ZZZZZZOQYzcvuuunnnuvvjXYYXXXncjt/j\/ff|rt-!i~+_+_[]?1||\uXj(}}1}-~~~_-])\|/j/rncncJJUUUUYYYYYYY
+mmmmmmmmmmmZZOLUcvujrnnxjftt/(fjr\|jc((tv~~[?[{\xcXUYJUJLLcx/1}]&gt;il!l!&lt;_\t|_}|1()jjxvXuUUUYYYYXXYYY
+mmmmmmmmmmmmZZZmQ0JmOJvxft\1|jrt((1u|f]\x?])vULqbkhhhhhkbkpmOJvf}]-~i&gt;i+?]111{}ffccvzUUUYYYYYYY
+wwwwwwmmmmOmmmmZCOOQYYuur(|\ff)}|(v/([-(\1Y0Zpdkhhaaaao*oaahkkbpmU|-??&gt;&gt;]??{|[]}/rfrXcYUYYYYYYY
+wwwwwwqqqmmwwmmCOLUCYrj|)11|\{((|ut}[??1tOOqdkhkhaaaooo*aaaaahhkkbqX}~&lt;i]{{]|}][{|?t\rcXYYYYYYY
+wwwwwwqqwqqqwmQQXYJu|){{}11(j\j(n/}???{/OZhkbkhhaaaaoooooaaaaahkbbbp0(~~}1/[|)}[{))f\]}tXzXXYYY
+wwwwwwqqwqqqCLUU0X[[?-][[\f)|){x}]_?~[|vQqbkkkhhaaooooooaaahhhkkbkbdqmf]1)({\}}1|)1{txf]}|zzXXX
+wqqqqqwqwqqLJCYf?}[]{1{|({??_tr][?}+[|xOLbhhkhhaoooooooooahhhhhkkbbppq0j)/){([])\{|{]rjt(-}fvvc
+qpppqppqmLXc\[+?]--?[[1{--]\\j{}[11\\vCZmkhhaooo**##*ooooaaahhkkbddppqZv[)(\]{]\f|()}}fvtr[(tzc
+qppppqqwc|]--?_++~~+?}}[]1]|t([|}r/1vL00Zdbkaoo**####****oohakkbddpppwZz11f([{|{jj\)|{1(|t}?|UQ
+qppppwn1?]~++_+&lt;&gt;&lt;&lt;++-]?_]\|[[}{1[rn||1[cJOmqbbha*****o**oaaakbbbpqqqw0U|jf(|{)}rr\[|1}(trvXUJY
+qqqqdX1?]_&lt;&gt;&lt;&gt;&gt;&gt;&lt;&lt;i&lt;?+_~_?_[?_{[tf_~_~&gt;i&lt;-)\jCOqkbkkkahhkdbbdpdbdpppqmQY\ft\)1/1xt(}-}{}/jvunnn
+qqqwOr}-!i~_&gt;!ii&gt;&lt;i~&gt;&lt;&lt;-?--&lt;{fr({{{((1{-~+~+]jXQmpqppqqwmZOZZZZmwwqwmOJzfvx|1(|(j/(]?{}||fjJQQL
+wwwO(Jr&lt;i&lt;&gt;&gt;&lt;&lt;&lt;&gt;iiiii~+~&lt;1][?})11)fnxj|(\]][]}nOqbbpwZLUx/(({11fuJOZ0LUztvn(/t/\u))]+?]|f\rvQ00
+wwO/ZZ(&gt;~&gt;~&gt;ii!i!&lt;l&lt;&lt;i!&gt;[~-+[11{)vL0mqCnt|{?}{umkaahwLx1?-~&lt;&lt;&gt;&gt;-??{(fcYvjxz|ffx\c\{?~--{|XrUX00
+qmcQpx[-&gt;&gt;&lt;&gt;&gt;!!lii&lt;&gt;&gt;!i1iIi}||1}ff){1}|xX|)1?1nqhoabZv)}[?()(tnrf)1t\-{f)fc)/jj|t|]&lt;~_+?[nXUc0O
+qq00wj(?&lt;&gt;&gt;~~&lt;i!ii&gt;i&lt}~&lt;[ll]/f/}?-]|_~+-1t|nY1&gt;~]?(nQC|})()111|tt|111{{))+[|\\j(/]}&lt;~~~~+[|CJcOO
+qqqqZtj(i~i&gt;&lt;+&gt;&lt;&lt;&gt;i&gt;-&lt;l}!+jvu|(\1/tu\/czzcUXrYdhoad0j?f1{}[|cZmZ0Yz({}|??(})r1x}_+&lt;&lt;&gt;&lt;~_?1xLYOO
+qqqqmZ([&gt;i_l!+~&gt;+&lt;&lt;&lt;_~l[&gttvztzCznxjffnYmOOvu/wkaohd0\uJLf1)/]?[1fXJn\({-++_\)r\?_!&gt;&lt;l&lt;&gt;~&lt;)fCXOO
+qqqqwmqv?&lt;i!l&lt;~_~&lt;&gt;&lt;++&lt;?rxvzCOOQQJCO00ZmmOYzQphahbqQ{tXLmbLC\++&gt;{1{/\(1?+[t1)-~-i&gtill&gt;&gt;?_{1vcCO
+qqqqqwmC[iii~?_{+~&gt;+]++(\rXL0000QmwqwqpqwQLwdbaohdwQ)vzZmZOuruznu(?{frf/xtx_+__~!l!l!i&lt;-]-&lt;?\rXQ
+qqqqpmOr|+&gtii)]&lt;&lt;_+&lt;_~-|rnUL0QLOZmqwwqqwZ0dbhaoohdwQ\YY0mqmOLYvfjf\nXrf/x[+<~+~i>!ii+-+>i>[[nvJ
+qqqqqqZj_-~l&gt;(+i~_+i&lt~]/zULvQLOZmmwwqwqQZdbkaMW#hbdOu\z0ZmwwmZ0CJUCXJLY/]~&gt;&gt;~~~iii&gt;i!&gt;!I&gt;ii[rX0
+qqqqwwQ}?/n!~_[i&gt;+}[__}rcYUYCOOt|fr()OOLCLwqpbhbbdpqQcfOmmmmmmZZOO00ZZJ/\&lt;&lt;~~~i&lt;&gt;iii&gt;!l!&gt;]}(rQQ
+ppqqpmc}fCw1?+_1]&gt;~-++}jvvvUCQ0OZZmZOQ|[]{rJQOOLLCCCCUJ\LwmmmZOOO000L0U1--+~~!!iii!!ll!&gt;&lt;~{}fCO
+ppppwOCjC0pY?+>i~&gt;&lt;i~-rcxnvXYJCQQOwbkd(?&gt;ll(fxj/|{{)fn(0ZxUZmZZZO00QY}c1~+~~lIlI!!Ili!ilI]Y\uQO
+pdpppOLmwqpmO\_+&gt;&lt;iI~{vYXL0mqdddddbkkdn{?_?])()[+I;l~]xQOmmwqOcrxJLXn1}t?~&lt;!I;;;I;I&lt;{ilII-XLz0O
+ppqmwmqwpddppCv]~i!l-\uuzUQmqqppdbbkkmt)1{[--]?]11?_?|mbZ0OOZZZmZQCzxj|nt&lt;l!I;III;I[/!!(!)Q0OOO
+ppppqppdpppppdO|lll_}\rjcL0ZwqqqqdddbpmOCz\[---[{)11)\YdkkOJLLQ0LLCUUzcn{I;lIIIIIl!-{~&lt;?~vQ0O00
+qpppppppppppppC\[rLU{)fnYCQ0ZmmZmZZmmZZmmqbJ)[{/f/|\/rLbddddmJUJJUXXXzvj&gt;I!!IIlI!l!_?|)_|0O0000
+ppppppppppppppqqwqmn_[fcYUCQOO0LCQ0OZO0LCCObbbhmZZ00ZZwpdpppppmJXzcccux(?_+lIII!!!~]i~_-J0OO000
+pppppppqpppppppqqwQ}+jcXUULOOCznt(/1}{{)(\tjrrjuJOZO0COmmwwmwwwCvuunrf1}?~lIIlll!+1&lt;++(XQOOwmm
+qqqqpqppppppppppqqqL|[rvXXYJL0CYYJUXYJLLCx)-_????]1nJCJQ0OOmZZZ0QYxrjf|1)?l;;l&gt;i!!&lt;~[)\uXQOmqpp
+qqpqqppqpppppppppqqqL)ruccXXUCCOOQLJUJJLZwpwddOQCXt-?{1xYCQ000LJUXxjft!&lt;?ll~li[/]I[jrtjxxnrxnzz
+qqqqpqpppppppppppppqqqzruvccYC0OZLCJzvvvnnvYJLLJYYXXcjtjrvJQQCYzcurff&lt;I!l-+(\]-]/nrrtjjunvJqBB@
+qqqqqpqppppppqpppqpqqwCjrnvzUJL0QCLUcr)[[]??]}(/jnvzUCLCUUCLJXcunxff[ii&gt;&lt;i~-}?-__}j/()(rtjxUmdk
+qqqqqqqppqqppqppqqpqqqqpuruzUCLQ0QQQQCYx|1{[][[{/nvXUQZOQJUXcuxrjff};i}[-?--?})[[)jt\tjrrxvYOOZ
+qqqqqqqqpppqpppqqqqqqqqqwjtvYCQOmwwqqpdkkbdqZQCUYUJJCQQQJUcnjjrtft{:,:l~???]???-??1)1))(|/jnc0Z
+qqqqqqqqpqqpppqpqqqqqqqqqr|/nYLmmqqqqpbkbpdbkpqwOOO0QQCJYznjfft//|;i&lt;&lt;-]]]-+~~~+[{?++){(ft/x)fx
+qqqqqqqqqqqqqqqqqqqqqqqqqr({|xYCQ0Q0ZwwO0OqqqqqqmwmmOQLUzurft\//jfjuxt?!iii&gt;&gt;&lt~~_-?[}{{(|/jnucz
+qqqqqqqqqqqqqqqqqqqqqwwwqx\)[{/rXYUUUCQQQCQLLOZZOOZZ0QYvrf/\\\/fx)})((())(|\\\|\\//\\\\\){[[?-+
+qqqqqqqqqqqqqqqqqqqqwqwqqz|){[?}(ffjfrnnvzUUCCCJJJJCYcj/||()))trx&lt;!i&gt;&lt;~_--???]][}{{1(|/tfrxnucv
+qqqqqqqqqqqqqqqqqqqqwwwwwLt|1}[]][1}}{}}1(/fftffrfj//|(}]]]1\/fxt&gt;IIIIli&gt;&lt;&gt;&lt;&gt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;~~~~~~~~+
+qqqqqqqqqqqqqqqqqqqqwwwwwCj\)1}[}}]----]}1)1{{{{{1{}]???}{1((frx|&gt;lllli&lt;~~~~&lt;&lt;&gt;&gt;&gt;&gt;&gt;iiii!i!!!!!!
+qqqqqqqqqqqqqqqqqqqwwwwwmurf|){}}}}[]--_-?][}}{{{}}[[][}))|/fjxx|&gt;!ll!&gt;++++++_+++++++++++++++++
+qqqqqqqqqqqqqqqqqqqwwwwwQrrf/|11{{}[[]??]]}111))1}}}{{{1(\ttjxcXf&gt;i!!!&gt;+++_+_+____+++++++++++++
+qqqqqqqqwwqqqqqqqqwwwwwZnxxrt\()1{}}}[[}{{{1)((()1{11)(|\ttxYCLLz~i!!!>+++___________+++++_++++
+qqqqqqqqqwqqqwqqqqwwwwwLJXcunf\()11{{111)))(||())1)((|\/trUOmZOQL(&lt;&gt;i!&lt___----_--____________+_</div>
+        <div class="info-column">
+<span class="cyan">Dadmehr</span> 
+────────────────────────────────────────
+
+<span class="yellow">OS......................</span> Windows 11, Linux
+<span class="yellow">Experience..............</span> 22 Years
+
+<span class="highlight">Language.Programming....</span> JavaScript, C#
+<span class="highlight">Language.Computer.......</span> HTML, CSS, JSON
+<span class="highlight">Languages.Real..........</span> English, German, Persian
+
+────────────────────────────────────────
+
+Contact
+
+<span class="green">Email.Work..............</span> mehr.saraee@gmail.com
+<span class="green">LinkedIn................</span> Dadmehr
+<span class="green">Discord.................</span> Dadmehr
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
