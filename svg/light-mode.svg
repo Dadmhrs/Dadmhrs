@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 585" width="960" height="585">
   <style>
     .bg { fill: #ffffff; stroke: #d0d7de; stroke-width: 1px; rx: 12px; }
     .ascii { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace; font-size: 7.8px; fill: #24292f; line-height: 9.2px; white-space: pre; }
@@ -11,7 +11,7 @@
     .term-sec { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; font-weight: bold; fill: #0969da; }
   </style>
 
-  <rect width="958" height="558" x="1" y="1" class="bg" />
+  <rect width="958" height="583" x="1" y="1" class="bg" />
 
   <g class="ascii" transform="translate(25, 45) scale(1.06, 1)">
     <text x="0" y="10">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCJCJJJJJJJJCJYUJJJJCCCCCJJJJJJJJJJJJJJJJJJJJJJUUUUUUUUUUU</text>
@@ -72,7 +72,7 @@
     <text x="0" y="505">qqqqqqqqqwqqqwqqqqwwwwwLJXcunf\()11{{111)))(||())1)((|\/trUOmZOQL(&lt;&gt;i!&lt;___----_--____________+_</text>
   </g>
 
-  <g transform="translate(535, 55)">
+  <g transform="translate(535, 65)">
     <text x="0" y="0"><tspan class="term-header">Dadmehr</tspan></text>
     <text x="0" y="15"><tspan class="term-dash">────────────────────────────────────────</tspan></text>
     
