@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560">
   <style>
-    .bg { fill: #ffffff; stroke: #d0d7de; stroke-width: 1px; rx: 10px; }
-    .ascii { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace; font-size: 7.5px; fill: #24292f; line-height: 9px; white-space: pre; }
+    .bg { fill: #ffffff; stroke: #d0d7de; stroke-width: 1px; rx: 12px; }
+    .ascii { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace; font-size: 7.8px; fill: #24292f; line-height: 9.2px; white-space: pre; }
     
     .term-header { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 15px; font-weight: bold; fill: #0969da; }
     .term-dash { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; fill: #d0d7de; }
@@ -11,9 +11,9 @@
     .term-sec { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; font-weight: bold; fill: #0969da; }
   </style>
 
-  <rect width="958" height="538" x="1" y="1" class="bg" />
+  <rect width="958" height="558" x="1" y="1" class="bg" />
 
-  <g class="ascii" transform="translate(30, 30)">
+  <g class="ascii" transform="translate(25, 45) scale(1.06, 1)">
     <text x="0" y="10">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCJCJJJJJJJJCJYUJJJJCCCCCJJJJJJJJJJJJJJJJJJJJJJUUUUUUUUUUU</text>
     <text x="0" y="19">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCUJCUXUJJJUYUUUJUUJJJCJJJJJJCJJJJJJJJJJJJJJJJJJJJUUUUUUUYYY</text>
     <text x="0" y="28">JJJJCCCCCCCCCCCCCCCCCCCCCCCCCCCCCJJCYUJCJJUUYvnrf/trnncXXUJvzunUYXJCCJJJJJJJJJJJJUUUUUUUUUUUUYY</text>
@@ -72,7 +72,7 @@
     <text x="0" y="505">qqqqqqqqqwqqqwqqqqwwwwwLJXcunf\()11{{111)))(||())1)((|\/trUOmZOQL(&lt;&gt;i!&lt;___----_--____________+_</text>
   </g>
 
-  <g transform="translate(490, 45)">
+  <g transform="translate(535, 55)">
     <text x="0" y="0"><tspan class="term-header">Dadmehr</tspan></text>
     <text x="0" y="15"><tspan class="term-dash">────────────────────────────────────────</tspan></text>
     
